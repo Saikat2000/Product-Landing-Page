@@ -1,23 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-sacle=1.0"/>
-        <link rel="stylesheet" href="styles.css"/>
-        <title>Product Landing Page</title>
-    </head>
-    <body>
-        <header id="header">
-            <div class="logo">
-                <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"/>
-            </div>
-            <nav id="nav-bar">
-                <ul>
-                    <li class="nav-link">Features</li>
-                    <li class="nav-link">How It Works</li>
-                    <li class="nav-link">Pricing</li>
-                </ul>
-            </nav>
-        </header>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-sacle=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <img
+          id="header-img"
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+        />
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li class="nav-link">Features</li>
+          <li class="nav-link">How It Works</li>
+          <li class="nav-link">Pricing</li>
+        </ul>
+      </nav>
+    </header>
+    <section id="hero">
+      <h2>Handcrafted, home-made masterpieces</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email address"
+          required
+        />
+        <input type="submit" id="submit" value="Get Started" class="btn" />
+      </form>
+    </section>
+  </body>
 </html>
