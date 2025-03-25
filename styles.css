@@ -22,6 +22,10 @@ header{
 .nav-link{
     list-style: none;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 nav{
     display: flex;
     align-items: center;
@@ -73,6 +77,12 @@ form{
     align-items: center;
     padding: 10px;
 }
+.buffer{
+    height: 5vh;
+}
+#feature:first-child{
+    padding-top: 100px;
+}
 .desc > *{
     margin: 0;
 }
@@ -86,5 +96,10 @@ form{
 #feature{
     width: 100%;
     max-width: 900px;
-    margin: 20px auto 0 auto;
+    margin: 0 auto;
+}
+#how-it-works{
+  display: flex;  
+  justify-content: center;
+  margin-top: 50px;
 }
