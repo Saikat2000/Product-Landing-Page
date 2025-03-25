@@ -8,6 +8,7 @@ header{
     display: flex;
     height: 70px;
     margin: 0px 20px;
+    background-color: #eee;
 }
 .logo{
     width: 60vw;
@@ -61,8 +62,29 @@ form{
     width: 100%;
     height: 30px;
     margin: 15px 0;
-    border: 0;
-    background-color: #f1c40f;
+    border:solid 1px;
+    background-color: gray;
     font-size: larger;
     cursor: pointer;
+}
+.container{
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    padding: 10px;
+}
+.desc > *{
+    margin: 0;
+}
+.icon{
+    width: 10vw;
+    margin-right: 20px;
+}
+.desc{
+    width: 90vw;
+}
+#feature{
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto 0 auto;
 }
