@@ -61,7 +61,7 @@ form{
     width: 100%;
     padding: 5px;
 }
-#hero input[type='submit']{
+.btn{
     max-width: 150px;
     width: 100%;
     height: 30px;
@@ -77,8 +77,11 @@ form{
     align-items: center;
     padding: 10px;
 }
-.buffer{
+.buffer1{
     height: 5vh;
+}
+.video{
+    margin-top: 80px;
 }
 #feature:first-child{
     padding-top: 100px;
@@ -102,4 +105,25 @@ form{
   display: flex;  
   justify-content: center;
   margin-top: 50px;
+}
+#pricing{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 80px auto;
+}
+.product{
+    border: 1px solid black;
+    width: 23vw;
+    text-align: center;
+}
+.list{
+    list-style: none;
+    text-align: left;
+}
+.type{
+    padding: 30px;
+    font-size: large;
+    font-weight: bolder;
+    background-color: #DDDDDD;
 }
