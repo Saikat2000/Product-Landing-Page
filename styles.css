@@ -1,6 +1,7 @@
 body {
     background-color: #eee;
     font-family: 'Lato', sans-serif;
+    margin: 0;
   }
 header{
     position: fixed;
@@ -109,8 +110,9 @@ form{
 #pricing{
     display: flex;
     width: 100%;
-    justify-content: space-around;
-    margin: 80px auto;
+    justify-content: center;
+    gap: 20px;
+    margin: 90px auto;
 }
 .product{
     border: 1px solid black;
@@ -126,4 +128,24 @@ form{
     font-size: large;
     font-weight: bolder;
     background-color: #DDDDDD;
+}
+footer{
+    background-color: #DDDDDD;
+    width: 75vw;
+    margin: 0px auto;
+    padding: 20px;
+}
+footer > ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: flex-end;
+    margin: 0;
+}
+footer > span{
+    display: flex;
+    justify-content: flex-end;
+    color: #444444;
+    margin-top: 5px;
+    font-size: small;
 }
